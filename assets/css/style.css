@@ -1,0 +1,22 @@
+background {
+    color: blue
+}
+
+h1 {
+    color:brown;
+    text-transform: uppercase;
+}
+
+.image1 {
+    float:left
+
+}
+
+.image2 {
+    float:right
+
+}
+
+.content {
+    text-align: center;
+}
