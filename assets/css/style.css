@@ -1,56 +1,111 @@
 /* header */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#header {
+    background-color: #97C4B8;
+    height: 90px;
+    width: 100%;
+    
+}
 h1 {
-    color:brown;
-    background-color: beige;
+    color: #F9CEEE;
     text-transform: uppercase;
     text-align: center;
     font-size: 250%;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-family: ;
     font-weight: 200;
-    padding: 5px;
+    padding: 2px;
+    margin: 0;
+}
+
+h2 {
+    color: #F9CEEE;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 200;
+
 }
 
 /* navigation links */
 .links {
     text-align: center;
     font-size: 120%;
-    background-color: beige;
-    padding: 5px 5px;
+    text-decoration: none;
+    background-color: #CCF3EE;
+    word-spacing: 15px;
+    color: #F9CEEE;
+    height: 25px;
+    
 }
 
 .links a:hover {
     background-color: ;
-    color:beige;
+    color:
 }
 
 /* body */
 
-.image1 {
+body {
+    background-color: #F9F3EE;
+}
+
+section {
+    display: block;
+}
+
+#content {
+    width: 49%;
+    height: 780px;
     float: left;
-    width: 33%;
-    margin: 2px;
+    border: 2px solid #97C4B8;
+    background-color: #F9CEEE;
+    margin-top: 20px;
+    margin-left: 10px;
+
 
 }
-
-.image2 {
+#content1 {
     float: right;
-    width: 33%;
+    width: 49%;
+    height: 780px;
+    background-color: #F9CEEE;
+    border: 2px solid #97C4B8;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+  }
+
+  .column {
+    display: table;
+    width: 50%;
+  }
+
+  .image1 {
+    
     margin: 2px;
-
+    padding: 5px;
+    position: absolute;
+    bottom: 20%;
+    right: 50%;
+    left: 15%;
+    top: 60%;
 }
-
-.content {
-    width: 33%;
-    border: 2px solid brown;
-    padding: 10px;
-    margin: auto;
-    background-color: burlywood;
-    position:
-
-
+ 
+.image2 {
+    
+    margin: 2px;
+    padding: 5px;
+    position: absolute;
+    bottom: 20%;
+    right: 0%;
+    left: 65%;
+    top: 60%;
 }
-
 #text1 {
 color: white;
 text-align: center;
@@ -60,3 +115,9 @@ text-align: center;
 
 }
 /* footer */
+
+footer {
+    background-color:
+    text-align: center;
+    padding: 5px;
+  }
