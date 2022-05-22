@@ -6,13 +6,13 @@
 }
 
 #header {
-    background-color: #97C4B8;
+    background-color: #F6E7E6;
     height: 90px;
     width: 100%;
     
 }
 h1 {
-    color: #F9CEEE;
+    color: black;
     text-transform: uppercase;
     text-align: center;
     font-size: 250%;
@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-    color: #F9CEEE;
+    color:black;
     text-align: center;
     font-size: 150%;
     font-weight: 200;
@@ -36,9 +36,9 @@ h2 {
     text-align: center;
     font-size: 120%;
     text-decoration: none;
-    background-color: #CCF3EE;
+    background-color: #B9CCED;
     word-spacing: 15px;
-    color: #F9CEEE;
+    color: black;
     height: 25px;
     
 }
@@ -51,7 +51,7 @@ h2 {
 /* body */
 
 body {
-    background-color: #F9F3EE;
+    background-color: #FBF4F9;
 }
 
 section {
@@ -62,8 +62,8 @@ section {
     width: 49%;
     height: 780px;
     float: left;
-    border: 2px solid #97C4B8;
-    background-color: #F9CEEE;
+    border: 2px solid #B9CCED;
+    background-color: #F6E5F5;
     margin-top: 20px;
     margin-left: 10px;
 
@@ -73,8 +73,8 @@ section {
     float: right;
     width: 49%;
     height: 780px;
-    background-color: #F9CEEE;
-    border: 2px solid #97C4B8;
+    background-color: #F6E5F5;
+    border: 2px solid #B9CCED;
     margin-top: 20px;
     margin-right: 10px;
     
