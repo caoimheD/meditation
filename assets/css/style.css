@@ -136,7 +136,7 @@ footer {
     height: 90px;
     width: 100%;
     background-color: #F6E7E6;
-    position:fixed;
+    position:absolute;
     bottom: 0px;
   }
 
@@ -170,7 +170,7 @@ footer {
 #content {
 
     width: 80%;
-    height: 1000px;
+    height: 800px;
 }
 
 #sidebar {
@@ -192,11 +192,30 @@ footer {
     padding: 
     margin: 
     column-count: ;
+    #content {
+
+        width: 80%;
+        height: 800px;
+    }
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
     #sidebar {
         column-count: ;
+}
+#content {
+
+    width: 80%;
+    height: 800px;
+}
+.links ul li {
+    display: inline-block;
+    list-style: none;
+    padding: .36em 0.9375em;
+}
+
+#header {
+    display: inline-block;
 }
 }
