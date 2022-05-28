@@ -64,11 +64,10 @@ section {
 
 #content {
     width: 80%;
-    height: 790px;
+    height: 800px;
     border: 5px solid #B9CCED;
     background-color: #F6E5F5;
     margin: auto;
-    /* padding-top: 10px; */
 }
 
 #sidebar {
@@ -132,9 +131,19 @@ text-align: center;
 /* footer */
 
 footer {
-    background-color:
     text-align: center;
     padding: 5px;
+    height: 90px;
+    width: 100%;
+    background-color: #F6E7E6;
+    position:fixed;
+    bottom: 0px;
+  }
+
+  .medialinks > li {
+      display: inline;
+      font-size: 120%;
+      word-spacing: 15px;
   }
 
   p {
@@ -152,3 +161,42 @@ footer {
     
 
   }
+
+  /* media queries */
+
+/* for larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+#content {
+
+    width: 80%;
+    height: 1000px;
+}
+
+#sidebar {
+
+}
+
+#main {
+
+}
+
+}
+
+/* for medium screens size from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+    width:
+    height: 
+    text-align: ;
+    padding: 
+    margin: 
+    column-count: ;
+
+}
+
+@media screen and (max-width: 800px) {
+    #sidebar {
+        column-count: ;
+}
+}
